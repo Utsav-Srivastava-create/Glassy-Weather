@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Glassy Search box interface -->
+    <div class="glassy-card-search" id="search-section">
+      <h2>Weather App</h2>
+      <input id="cityInput" type="text" placeholder="Enter city name (e.g. Lagos)">
+      <button id="searchBtn" onclick="showWeather()">Search</button>
+    </div>
+    <!-- Result, hidden by default -->
+    <div id="weatherResult" style="display:none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
